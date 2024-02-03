@@ -1,0 +1,1 @@
+import{_ as e,c as s,a as o,t as n,b as r,o as c}from"./index-LaW934KB.js";const d={data(){return{data:{}}},mounted(){this.$http.get("https://randomuser.me/api/").then(t=>{this.data=t.data})}},i={class:"about"},p=r("h1",null,"This is an about page",-1);function _(t,u,h,l,a,m){return c(),s("div",i,[p,o(" "+n(a.data),1)])}const b=e(d,[["render",_]]);export{b as default};
